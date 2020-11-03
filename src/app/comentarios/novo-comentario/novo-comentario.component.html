@@ -1,0 +1,11 @@
+<form [formGroup]="formNovoComentario">
+    <div class="form-group">
+        <label>Nome</label>
+        <input type="text" class="form-control" formControlName="nome">
+    </div>
+    <div class="form-group">
+        <label>Mensagem</label>
+        <textarea rows="10" class="form-control"  formControlName="mensagem"></textarea>
+    </div>
+    <button class="btn btn-primary">Comentar</button>
+</form>
